@@ -19,6 +19,7 @@ export var storyboard = (
         overflow: 'hidden',
       }}
       data-label='Mood Board'
+      commentId='1bd'
     />
     <RemixScene
       className='my-class'
@@ -31,6 +32,7 @@ export var storyboard = (
         overflow: 'hidden',
       }}
       data-label='Mood Board'
+      commentId='d52'
     />
     <Scene
       style={{
@@ -41,8 +43,19 @@ export var storyboard = (
         top: -24,
       }}
       data-label='Mood Board'
+      commentId='153'
     >
       <MoodBoard />
     </Scene>
+    <div
+      style={{
+        backgroundColor: '#aaaaaa33',
+        position: 'absolute',
+        left: 1985,
+        top: -254,
+        width: 952,
+        height: 2136,
+      }}
+    />
   </Storyboard>
 )
