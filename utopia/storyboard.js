@@ -19,6 +19,7 @@ export var storyboard = (
         overflow: 'hidden',
       }}
       data-label='Mood Board'
+      commentId='1bd'
     />
     <RemixScene
       className='my-class'
@@ -31,6 +32,7 @@ export var storyboard = (
         overflow: 'hidden',
       }}
       data-label='Mood Board'
+      commentId='d52'
     />
     <Scene
       style={{
@@ -41,8 +43,19 @@ export var storyboard = (
         top: -24,
       }}
       data-label='Mood Board'
+      commentId='153'
     >
       <MoodBoard />
     </Scene>
+    <img
+      style={{
+        width: '1176px',
+        height: '1176px',
+        position: 'absolute',
+        top: -24,
+        left: 2888,
+      }}
+      src='/editor/utopia-logo-white-fill.png?hash=909db3b5ff87b73cd3f690866cb6fd6baff4531f'
+    />
   </Storyboard>
 )
